@@ -68,7 +68,7 @@ if(BUILD_TESTS)
           )
   target_link_libraries(tests ${PROJECT_NAME} GTest::gtest_main)
 
-  enable_testing()
+  enable_testing();
   add_test(NAME unit_tests COMMAND tests)
 endif()
 
